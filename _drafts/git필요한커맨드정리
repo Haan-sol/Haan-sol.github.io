@@ -1,0 +1,28 @@
+git 원격 repository 가져오기
+git 
+
+git 현재브런치에 커밋하기
+git status // 파일 상태 확인
+git add -A //전체 파일 스테이지에 올림
+git commit -m "message" // message로 요약해서 커밋하기
+
+커밋로그 확인
+git log
+
+git remote 브랜치에 현재 커밋 푸시하기
+git push origin {branchanme} // branchname에 커밋 푸사함
+
+git remote 브랜치에서 가져오기
+git pull origin {branchname}
+
+git branch 확인하기
+git branch // -r 옵션
+
+git branch 옮기기
+git checkout {destination branchname}
+
+git 특정브랜치의 특정파일만 여기브랜치로 가져오기
+
+커밋되돌리기
+git revert
+git reset
